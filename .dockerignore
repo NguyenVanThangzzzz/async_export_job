@@ -1,0 +1,10 @@
+node_modules/
+dist/
+exports/
+.env
+.env.*
+!.env.example
+coverage/
+*.test.ts
+.git/
+Readme.md
