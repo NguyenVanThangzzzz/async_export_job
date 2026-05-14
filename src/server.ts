@@ -1,8 +1,9 @@
 import 'dotenv/config';
 import app from './app.js';
+import { logger } from './shared/utils/logger.js';
 
 const PORT = 3000;
 
 app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
+  logger.info(`Server is running at http://localhost:${PORT}`);
 });
